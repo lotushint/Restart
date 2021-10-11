@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+
+<body>
+    <table border="1" align="center" cellpadding="20" cellspacing="0" width="500" height="250">
+        <!-- 头部区域 必须包含tr-->
+        <thead>
+            <tr>
+                <!-- 表头标签 文字会加粗居中-->
+                <th>姓名</th>
+                <th>性别</th>
+                <th>年龄</th>
+            </tr>
+        </thead>
+
+        <!-- 主体区域 -->
+
+        <body>
+            <tr>
+                <td>lotus</td>
+                <td>man</td>
+                <td>20</td>
+            </tr>
+
+            <tr>
+                <td>hint</td>
+                <td>woman</td>
+                <td>19</td>
+            </tr>
+
+            <tr>
+                <td>lotushint</td>
+                <td>man</td>
+                <td>40</td>
+            </tr>
+        </body>
+    </table>
+    <br>
+    <!-- 合并单元格 跨列：colspan 跨行：rowspan-->
+    <table border="1" align="center" width="500" height="250">
+        <tr>
+            <td></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <!-- <td></td> -->
+        </tr>
+    </table>
+</body>
+
+</html>
